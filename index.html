@@ -1,43 +1,48 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SkillsCenter - Immersive Training and Skills Development for Youth in Ben Guerir.">
     <title>SkillsCenter | Immersive Training</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#hero" class="nav-logo"><img src="skillscenterlogo.png" alt="Logo" class="logo-img"><span class="logo-text">SKILLSCENTER</span></a>
+            <div class="nav-lang">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="fr">FR</button>
+                <button class="lang-btn" data-lang="ar">AR</button>
+            </div>
             <button class="mobile-menu-btn" id="mobileMenuBtn"><span></span><span></span><span></span></button>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#vision">Vision</a></li>
-                <li><a href="#training">Training</a></li>
-                <li><a href="#technology">Technology</a></li>
-                <li><a href="#career-discovery">Career Discovery</a></li>
-                <li><a href="#partnerships">Partnerships</a></li>
+                <li><a href="#vision" data-en="Vision" data-fr="Vision" data-ar="الرؤية">Vision</a></li>
+                <li><a href="#training" data-en="Training" data-fr="Formation" data-ar="التدريب">Training</a></li>
+                <li><a href="#technology" data-en="Technology" data-fr="Technologie" data-ar="التقنية">Technology</a></li>
+                <li><a href="#career-discovery" data-en="Career Discovery" data-fr="Découverte de Carrière" data-ar="اكتشاف المهنة">Career Discovery</a></li>
+                <li><a href="#partnerships" data-en="Partnerships" data-fr="Partenariats" data-ar="الشراكات">Partnerships</a></li>
             </ul>
-            <a href="#contact" class="nav-cta">Discuss the Project</a>
+            <a href="#contact" class="nav-cta" data-en="Discuss the Project" data-fr="Discuter le Projet" data-ar="مناقشة المشروع">Discuss the Project</a>
         </div>
     </nav>
     <section class="hero" id="hero">
         <div class="hero-bg"><div class="hero-ribbon hero-ribbon-1"></div><div class="hero-ribbon hero-ribbon-2"></div><div class="hero-glow"></div></div>
         <div class="hero-container">
             <div class="hero-content">
-                <div class="hero-label">SKILLSCENTER | BEN GUERIR | REHAMNA</div>
-                <h1 class="hero-headline">Building <span class="gradient-text">Highly Skilled Youth</span> Through Immersive Learning</h1>
-                <p class="hero-description">SkillsCenter combines Virtual Reality, Augmented Reality, realistic simulation, and AI to help young people discover careers, practice professional skills, and prepare for the real world.</p>
+                <div class="hero-label" data-en="SKILLSCENTER | BEN GUERIR | REHAMNA" data-fr="SKILLSCENTER | BEN GUERIR | REHAMNA" data-ar="سكيل سينتر | إبن جرير | رحامنة">SKILLSCENTER | BEN GUERIR | REHAMNA</div>
+                <h1 class="hero-headline" data-en="Building <span class='gradient-text'>Highly Skilled Youth</span> Through Immersive Learning" data-fr="Former des <span class='gradient-text'>jeunes hautement qualifiés</span> grâce à l'apprentissage immersif" data-ar="بناء <span class='gradient-text'>شباب مؤهلين Highly Skilled Youth</span> من خلال التعلم الغامر">Building <span class="gradient-text">Highly Skilled Youth</span> Through Immersive Learning</h1>
+                <p class="hero-description" data-en="SkillsCenter combines Virtual Reality, Augmented Reality, realistic simulation, and Artificial Intelligence to help young people discover careers, practice professional skills, and prepare for the real world." data-fr="SkillsCenter combine la réalité virtuelle, la réalité augmentée, la simulation réaliste et l'intelligence artificielle pour aider les jeunes à découvrir des carrières, pratiquer des compétences professionnelles et se préparer au monde professionnel." data-ar="يجمع سكيل سينتر بين الواقع الافتراضي Reality Virtual، والواقع المعزز Augmented Reality، والمحاكاة الواقعية Simulation، والذكاء الاصطناعي Artificial Intelligence لمساعدة الشباب على اكتشاف المهن، وممارسة المهارات المهنية، والاستعداد للعالم الحقيقي.">SkillsCenter combines Virtual Reality, Augmented Reality, realistic simulation, and Artificial Intelligence to help young people discover careers, practice professional skills, and prepare for the real world.</p>
                 <div class="hero-buttons">
-                    <a href="#vision" class="btn btn-primary">Explore the Vision</a>
-                    <a href="#training" class="btn btn-secondary">Discover Training</a>
+                    <a href="#vision" class="btn btn-primary" data-en="Explore the Vision" data-fr="Explorer la Vision" data-ar="استكشف الرؤية">Explore the Vision</a>
+                    <a href="#training" class="btn btn-secondary" data-en="Discover Training" data-fr="Découvrir la Formation" data-ar="اكتشف التدريب">Discover Training</a>
                 </div>
                 <div class="hero-tags">
-                    <span class="hero-tag">IMMERSIVE LEARNING</span>
-                    <span class="hero-tag">AI-POWERED TRAINING</span>
-                    <span class="hero-tag">VR AR SIMULATION</span>
+                    <span class="hero-tag" data-en="IMMERSIVE LEARNING" data-fr="APPRENTISSAGE IMMERSIF" data-ar="التعلم الغامر">IMMERSIVE LEARNING</span>
+                    <span class="hero-tag" data-en="AI-POWERED TRAINING" data-fr="FORMATION PAR INTELLIGENCE ARTIFICIELLE" data-ar="تدريب بالذكاء الاصطناعي">AI-POWERED TRAINING</span>
+                    <span class="hero-tag" data-en="VIRTUAL REALITY | AUGMENTED REALITY | SIMULATION" data-fr="RÉALITÉ VIRTUELLE | RÉALITÉ AUGMENTÉE | SIMULATION" data-ar="الواقع الافتراضي | الواقع المعزز | المحاكاة">VIRTUAL REALITY | AUGMENTED REALITY | SIMULATION</span>
                 </div>
             </div>
             <div class="hero-visual">
@@ -55,50 +60,90 @@
     </section>
     <section class="problem" id="problem">
         <div class="container">
-            <h2 class="section-title">Learning Should Not Stop at Theory</h2>
+            <h2 class="section-title" data-en="Learning Should Not Stop at Theory" data-fr="L'apprentissage ne doit pas s'arrêter à la théorie" data-ar="لا يجب أن يقتصر التعلم على النظرية">Learning Should Not Stop at Theory</h2>
             <div class="problem-grid">
-                <div class="problem-card reveal"><div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M12 6v12M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10z" stroke="currentColor" stroke-width="2"/></svg></div><h3>Limited Practical Experience</h3><p>Young people often learn about professions without experiencing the real tasks involved.</p></div>
-                <div class="problem-card reveal"><div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M3 21V9l9-6 9 6v12M3 21c0-4.97 4.03-9 9-9s9 4.03 9 9M12 12v9" stroke="currentColor" stroke-width="2"/></svg></div><h3>Limited Access</h3><p>Professional environments and equipment are not always accessible for training.</p></div>
-                <div class="problem-card reveal"><div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M12 9v4M12 17h.01M12 3L2 12h3v8h14v-8h3L12 3z" stroke="currentColor" stroke-width="2"/></svg></div><h3>Risk</h3><p>Some procedures are difficult or unsafe to practice repeatedly in the real world.</p></div>
-                <div class="problem-card reveal"><div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" stroke="currentColor" stroke-width="2"/></svg></div><h3>Career Uncertainty</h3><p>Young people need better opportunities to understand what different careers actually involve.</p></div>
+                <div class="problem-card reveal">
+                    <div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M12 6v12M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10z" stroke="currentColor" stroke-width="2"/></svg></div>
+                    <h3 data-en="Limited Practical Experience" data-fr="Expérience pratique limitée" data-ar="خبرة عملية محدودة">Limited Practical Experience</h3>
+                    <p data-en="Young people often learn about professions without experiencing the real tasks involved." data-fr="Les jeunes apprennent souvent sur les professions sans vivre les vraies tâches impliquées." data-ar="يتعلم الشباب عادةً عن المهن دون تجربة المهام الحقيقية فعلياً.">Young people often learn about professions without experiencing the real tasks involved.</p>
+                </div>
+                <div class="problem-card reveal">
+                    <div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M3 21V9l9-6 9 6v12M3 21c0-4.97 4.03-9 9-9s9 4.03 9 9M12 12v9" stroke="currentColor" stroke-width="2"/></svg></div>
+                    <h3 data-en="Limited Access" data-fr="Accès limité" data-ar="وصول محدود">Limited Access</h3>
+                    <p data-en="Professional environments and equipment are not always accessible for training." data-fr="Les environnements et équipements professionnels ne sont pas toujours accessibles pour la formation." data-ar="المهنية والبيئات والمعدلات ليست متاحة دائماً للتدريب.">Professional environments and equipment are not always accessible for training.</p>
+                </div>
+                <div class="problem-card reveal">
+                    <div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M12 9v4M12 17h.01M12 3L2 12h3v8h14v-8h3L12 3z" stroke="currentColor" stroke-width="2"/></svg></div>
+                    <h3 data-en="Risk" data-fr="Risque" data-ar="خطر">Risk</h3>
+                    <p data-en="Some procedures are difficult or unsafe to practice repeatedly in the real world." data-fr="Certaines procédures sont difficiles ou dangereuses à pratiquer plusieurs fois dans le monde réel." data-ar="بعض الإجراءات صعبة أو غير آمنة للممارسة بشكل متكرر في الواقع.">Some procedures are difficult or unsafe to practice repeatedly in the real world.</p>
+                </div>
+                <div class="problem-card reveal">
+                    <div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" stroke="currentColor" stroke-width="2"/></svg></div>
+                    <h3 data-en="Career Uncertainty" data-fr="Incertitude de carrière" data-ar="عدم اليقين في المسار المهني">Career Uncertainty</h3>
+                    <p data-en="Young people need better opportunities to understand what different careers actually involve." data-fr="Les jeunes ont besoin de meilleures opportunités pour comprendre ce qu'impliquent vraiment les différentes carrières." data-ar="يحتاج الشباب إلى فرص أفضل لفهم ما تتضمنه المهن المختلفة فعلياً.">Young people need better opportunities to understand what different careers actually involve.</p>
+                </div>
             </div>
         </div>
     </section>
 <section class="vision" id="vision">
         <div class="container">
-            <h2 class="section-title">From Learning About a Career to Experiencing It</h2>
+            <h2 class="section-title" data-en="From Learning About a Career to Experiencing It" data-fr="De l'apprentissage d'un métier à son expérience" data-ar="من تعلم المهنة إلى عاشها">From Learning About a Career to Experiencing It</h2>
             <div class="journey-stages">
-                <div class="journey-stage reveal"><div class="stage-circle">01</div><h3>Discover</h3></div>
-                <div class="journey-stage reveal"><div class="stage-circle">02</div><h3>Experience</h3></div>
-                <div class="journey-stage reveal"><div class="stage-circle">03</div><h3>Practice</h3></div>
-                <div class="journey-stage reveal"><div class="stage-circle">04</div><h3>Improve</h3></div>
-                <div class="journey-stage reveal"><div class="stage-circle">05</div><h3>Prepare</h3></div>
+                <div class="journey-stage reveal"><div class="stage-circle">01</div><h3 data-en="Discover" data-fr="Découvrir" data-ar="اكتشف">Discover</h3></div>
+                <div class="journey-stage reveal"><div class="stage-circle">02</div><h3 data-en="Experience" data-fr="Expériencer" data-ar="عش">Experience</h3></div>
+                <div class="journey-stage reveal"><div class="stage-circle">03</div><h3 data-en="Practice" data-fr="Pratiquer" data-ar="تدرب">Practice</h3></div>
+                <div class="journey-stage reveal"><div class="stage-circle">04</div><h3 data-en="Improve" data-fr="Améliorer" data-ar="طور">Improve</h3></div>
+                <div class="journey-stage reveal"><div class="stage-circle">05</div><h3 data-en="Prepare" data-fr="Préparer" data-ar="استعد">Prepare</h3></div>
             </div>
-            <p class="vision-text">SkillsCenter creates immersive environments where young people can explore professional worlds.</p>
+            <p class="vision-text" data-en="SkillsCenter creates immersive environments where young people can explore professional worlds." data-fr="SkillsCenter crée des environnements immersifs où les jeunes peuvent explorer les mondes professionnels." data-ar="يسعى سكيل سينتر لخلق بيئات غامرة يستكشف فيها الشباب العوالم المهنية.">SkillsCenter creates immersive environments where young people can explore professional worlds.</p>
         </div>
     </section>
 <section class="training" id="training">
         <div class="container">
-            <h2 class="section-title">One Platform. Many Professional Worlds.</h2>
+            <h2 class="section-title" data-en="One Platform. Many Professional Worlds." data-fr="Une plateforme. Des mondes professionnels variés." data-ar="منصة واحدة. عوالم مهنية متعددة.">One Platform. Many Professional Worlds.</h2>
             <div class="sectors-grid">
-                <div class="sector-card reveal"><div class="sector-visual healthcare-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3>Healthcare</h3><p>Practice clinical scenarios and emergency situations.</p></div></div>
-                <div class="sector-card reveal"><div class="sector-visual manufacturing-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3>Manufacturing</h3><p>Practice machine operation and quality control.</p></div></div>
-                <div class="sector-card reveal"><div class="sector-visual aerospace-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3>Aerospace</h3><p>Experience aircraft maintenance procedures.</p></div></div>
-                <div class="sector-card reveal"><div class="sector-visual automotive-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3>Automotive</h3><p>Learn vehicle diagnostics and repairs.</p></div></div>
-                <div class="sector-card reveal"><div class="sector-visual energy-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3>Energy</h3><p>Understand energy systems and safety.</p></div></div>
-                <div class="sector-card reveal"><div class="sector-visual construction-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3>Construction</h3><p>Practice building techniques.</p></div></div>
-                <div class="sector-card reveal"><div class="sector-visual logistics-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3>Logistics</h3><p>Experience warehouse operations.</p></div></div>
+                <div class="sector-card reveal"><div class="sector-visual healthcare-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3 data-en="Healthcare" data-fr="Santé" data-ar="الرعاية الصحية">Healthcare</h3><p data-en="Practice clinical scenarios and emergency situations." data-fr="Pratiquez les scénarios cliniques et les situations d'urgence." data-ar="تدرب على السيناريوهات السريرية وحالات الطوارئ.">Practice clinical scenarios and emergency situations.</p></div></div>
+                <div class="sector-card reveal"><div class="sector-visual manufacturing-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3 data-en="Manufacturing" data-fr="Industrie manufacturière" data-ar="التصنيع">Manufacturing</h3><p data-en="Practice machine operation and quality control." data-fr="Pratiquez l'exploitation des machines et le contrôle qualité." data-ar="تدرب على تشغيل الآلات ومراقبة الجودة.">Practice machine operation and quality control.</p></div></div>
+                <div class="sector-card reveal"><div class="sector-visual aerospace-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3 data-en="Aerospace and Maintenance" data-fr="Aérospatiale et Maintenance" data-ar="الفضاء والصيانة">Aerospace and Maintenance</h3><p data-en="Experience aircraft maintenance procedures." data-fr="Vivez les procédures de maintenance des avions." data-ar="عش إجراءات صيانة Aircraft.">Experience aircraft maintenance procedures.</p></div></div>
+                <div class="sector-card reveal"><div class="sector-visual automotive-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3 data-en="Automotive" data-fr="Automobile" data-ar="السيارات">Automotive</h3><p data-en="Learn vehicle diagnostics and repairs." data-fr="Apprenez les diagnostics et les réparations véhicules." data-ar="تعلم تشخيص وإصلاح المركبات.">Learn vehicle diagnostics and repairs.</p></div></div>
+                <div class="sector-card reveal"><div class="sector-visual energy-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3 data-en="Energy" data-fr="Énergie" data-ar="الطاقة">Energy</h3><p data-en="Understand energy systems and safety." data-fr="Comprenez les systèmes énergétiques et la sécurité." data-ar="افهم أنظمة الطاقة والسلامة.">Understand energy systems and safety.</p></div></div>
+                <div class="sector-card reveal"><div class="sector-visual construction-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3 data-en="Construction" data-fr="Construction" data-ar="البناء">Construction</h3><p data-en="Practice building techniques." data-fr="Pratiquez les techniques de construction." data-ar="تدرب على تقنيات البناء.">Practice building techniques.</p></div></div>
+                <div class="sector-card reveal"><div class="sector-visual logistics-visual"></div><div class="sector-overlay"></div><div class="sector-content"><h3 data-en="Logistics" data-fr="Logistique" data-ar="اللوجستيات">Logistics</h3><p data-en="Experience warehouse operations." data-fr="Vivez les opérations d'entrepôt." data-ar="عش عمليات المستودعات.">Experience warehouse operations.</p></div></div>
             </div>
         </div>
     </section>
 <section class="technology" id="technology">
         <div class="container">
-            <h2 class="section-title light">Four Technologies. One Learning Experience.</h2>
+            <h2 class="section-title light" data-en="Four Technologies. One Learning Experience." data-fr="Quatre technologies. Une expérience d'apprentissage." data-ar="أربع تقنيات. تجربة تعلم واحدة.">Four Technologies. One Learning Experience.</h2>
             <div class="tech-grid">
-                <div class="tech-card reveal"><div class="tech-circle">VR</div><h3>VR</h3><p>Enter immersive environments.</p></div>
-                <div class="tech-card reveal"><div class="tech-circle">AR</div><h3>AR</h3><p>Digital guidance in real-world.</p></div>
-                <div class="tech-card reveal"><div class="tech-circle">SIM</div><h3>Simulation</h3><p>Practice realistic scenarios.</p></div>
-                <div class="tech-card reveal"><div class="tech-circle">AI</div><h3>AI</h3><p>Personalized learning support.</p></div>
+                <div class="tech-card reveal">
+                    <div class="tech-circle">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8a4 4 0 0 1 4-4h12a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><circle cx="12" cy="12" r="3"/><path d="M6 12h.01M18 12h.01"/></svg>
+                    </div>
+                    <h3 data-en="Virtual Reality" data-fr="Réalité Virtuelle" data-ar="الواقع الافتراضي">Virtual Reality</h3>
+                    <p data-en="Enter immersive professional environments." data-fr="Entrez dans des environnements professionnels immersifs." data-ar="ادخل إلى البيئات المهنية الغامرة.">Enter immersive environments.</p>
+                </div>
+                <div class="tech-card reveal">
+                    <div class="tech-circle">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 17h10M7 12h10M7 7h10M12 7v10"/></svg>
+                    </div>
+                    <h3 data-en="Augmented Reality" data-fr="Réalité Augmentée" data-ar="الواقع المعزز">Augmented Reality</h3>
+                    <p data-en="Bring digital guidance into real-world environments." data-fr="Apportez des conseils numériques dans les environnements réels." data-ar="أضف الإرشاد الرقمي إلى البيئات الحقيقية.">Digital guidance in real-world.</p>
+                </div>
+                <div class="tech-card reveal">
+                    <div class="tech-circle">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg>
+                    </div>
+                    <h3 data-en="Simulation" data-fr="Simulation" data-ar="المحاكاة">Simulation</h3>
+                    <p data-en="Practice realistic scenarios repeatedly." data-fr="Pratiquez des scénarios réaliques de manière répétée." data-ar="تدرب على السيناريوهات الواقعية بشكل متكرر.">Practice realistic scenarios.</p>
+                </div>
+                <div class="tech-card reveal">
+                    <div class="tech-circle">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a3 3 0 0 0-3 3c0 1.1.6 2.1 1.5 2.6L9 12l-4.5 2.7A3 3 0 0 0 3 17.5c0 1.7 1.3 3 3 3a3 3 0 0 0 3-3c0-.5-.1-.9-.3-1.3L12 12l2.3 2.2c-.2.4-.3.8-.3 1.3a3 3 0 0 0 3 3 3 3 0 0 0 1.5-5.6L15 12l1.5-4.4A3 3 0 0 0 15 5a3 3 0 0 0-3-3z"/><path d="M12 8v4M10 10h4"/></svg>
+                    </div>
+                    <h3 data-en="Artificial Intelligence" data-fr="Intelligence Artificielle" data-ar="الذكاء الاصطناعي">Artificial Intelligence</h3>
+                    <p data-en="Receive contextual guidance and personalized learning support." data-fr="Bénéficiez de conseils contextuels et d'un soutien personnalisées." data-ar="احصل على إرشاد سياقي ودعم تعلم شخصي.">Personalized learning support.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -106,93 +151,100 @@
         <div class="container">
             <div class="ai-split">
                 <div class="ai-interface">
-                    <div class="interface-header"><span class="interface-title">AI Learning Assistant</span></div>
+                    <div class="interface-header"><span class="interface-title" data-en="AI Learning Assistant" data-fr="Assistant pédagogique IA" data-ar="مساعد التعلم الذكي">AI Learning Assistant</span></div>
                     <div class="interface-body">
-                        <div class="message message-user">Why did I fail this step?</div>
-                        <div class="message message-ai">This step was completed in the wrong sequence.</div>
+                        <div class="message message-user" data-en="Why did I fail this step?" data-fr="Pourquoi ai-je échoué cette étape?" data-ar="لماذا فشلت في هذه الخطوة؟">Why did I fail this step?</div>
+                        <div class="message message-ai" data-en="This step was completed in the wrong sequence." data-fr="Cette étape a été effectuée dans le mauvais ordre." data-ar="تم إكمال هذه الخطوة بترتيب خاطئ.">This step was completed in the wrong sequence.</div>
                     </div>
                 </div>
                 <div class="ai-content">
-                    <h2>An Intelligent Guide</h2>
-                    <p>AI supports learners by explaining procedures and providing guidance.</p>
+                    <h2 data-en="An Intelligent Guide During Practice" data-fr="Un guide intelligent pendant la pratique" data-ar="دليل ذكي أثناء التدريب">An Intelligent Guide</h2>
+                    <p data-en="Artificial Intelligence can support learners by explaining procedures, answering questions, providing contextual guidance, and helping identify areas where additional practice may be useful." data-fr="L'IA peut soutenir les apprenants en expliquant les procédures, en répondant aux questions, en fournissant des conseils contextuels et en aidant à identifier les domaines où une pratique supplémentaire peut être utile." data-ar="يمكن للذكاء الاصطناعي دعم المتعلمين من خلال شرح الإجراءات، والإجابة على الأسئلة، وتوفير إرشادات سياقية، ومساعدة تحديد المجالات التي قد تكون مفيدة لممارسة إضافية.">AI supports learners by explaining procedures and providing guidance.</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="career-discovery" id="career-discovery">
         <div class="container">
-            <h2 class="section-title">Experience a Career Before Choosing It</h2>
+            <h2 class="section-title" data-en="Experience a Career Before Choosing It" data-fr="Expérimentez un métier avant de le choisir" data-ar="عش مهنة قبل اختيارها">Experience a Career Before Choosing It</h2>
             <div class="career-stages">
-                <div class="career-stage">EXPLORE</div>
-                <div class="career-stage">EXPERIENCE</div>
-                <div class="career-stage">UNDERSTAND</div>
-                <div class="career-stage">PRACTICE</div>
-                <div class="career-stage">CHOOSE</div>
+                <div class="career-stage" data-en="EXPLORE" data-fr="EXPLORER" data-ar="استكشف">EXPLORE</div>
+                <div class="career-stage" data-en="EXPERIENCE" data-fr="EXPÉRIENCER" data-ar="عش">EXPERIENCE</div>
+                <div class="career-stage" data-en="UNDERSTAND" data-fr="COMPRENDRE" data-ar="افهم">UNDERSTAND</div>
+                <div class="career-stage" data-en="PRACTICE" data-fr="PRATIQUER" data-ar="تدرب">PRACTICE</div>
+                <div class="career-stage" data-en="CHOOSE" data-fr="CHOISIR" data-ar="اختر">CHOOSE</div>
             </div>
         </div>
     </section>
     <section class="ben-guerir" id="ben-guerir">
         <div class="container">
-            <h2 class="section-title">Built for the Youth of Ben Guerir</h2>
+            <h2 class="section-title" data-en="Built for the Youth of Ben Guerir" data-fr="Construit pour les jeunes de Ben Guerir" data-ar="مبني لشباب إبن جرير">Built for the Youth of Ben Guerir</h2>
             <div class="ben-network">
-                <div class="network-center">BEN GUERIR</div>
+                <div class="network-center" data-en="BEN GUERIR" data-fr="BEN GUERIR" data-ar="إبن جرير">BEN GUERIR</div>
                 <div class="network-nodes">
-                    <div class="network-node">YOUTH</div>
-                    <div class="network-node">EDUCATION</div>
-                    <div class="network-node">TRAINING</div>
-                    <div class="network-node">INDUSTRY</div>
-                    <div class="network-node">INNOVATION</div>
-                    <div class="network-node">CAREERS</div>
+                    <div class="network-node" data-en="YOUTH" data-fr="JEUNES" data-ar="الشباب">YOUTH</div>
+                    <div class="network-node" data-en="EDUCATION" data-fr="ÉDUCATION" data-ar="التعليم">EDUCATION</div>
+                    <div class="network-node" data-en="TRAINING" data-fr="FORMATION" data-ar="التدريب">TRAINING</div>
+                    <div class="network-node" data-en="INDUSTRY" data-fr="INDUSTRIE" data-ar="الصناعة">INDUSTRY</div>
+                    <div class="network-node" data-en="INNOVATION" data-fr="INNOVATION" data-ar="الابتكار">INNOVATION</div>
+                    <div class="network-node" data-en="CAREERS" data-fr="CARRIÈRES" data-ar="المهن">CAREERS</div>
                 </div>
             </div>
         </div>
     </section>
     <section class="impact" id="impact">
         <div class="container">
-            <h2 class="section-title">Turning Local Potential Into Professional Skills</h2>
+            <h2 class="section-title" data-en="Turning Local Potential Into Professional Skills" data-fr="Transformer le potentiel local en compétences professionnelles" data-ar="تحويل الإمكانات المحلية إلى مهارات مهنية">Turning Local Potential Into Professional Skills</h2>
             <div class="impact-grid">
-                <div class="impact-card"><h3>Discover Potential</h3><p>Help young people discover what they can do.</p></div>
-                <div class="impact-card"><h3>Build Skills</h3><p>Give them opportunities to practice.</p></div>
-                <div class="impact-card"><h3>Connect to Opportunity</h3><p>Create links between learning and work.</p></div>
+                <div class="impact-card"><h3 data-en="Discover Potential" data-fr="Découvrir le potentiel" data-ar="اكتشف الإمكانيات">Discover Potential</h3><p data-en="Help young people discover what they can do." data-fr="Aidez les jeunes à découvrir ce qu'ils peuvent faire." data-ar="ساعد الشباب على اكتشاف ما يمكنهم فعله.">Help young people discover what they can do.</p></div>
+                <div class="impact-card"><h3 data-en="Build Skills" data-fr="Construire des compétences" data-ar="بناء المهارات">Build Skills</h3><p data-en="Give them opportunities to practice." data-fr="Donnez-leur des occasions de pratiquer." data-ar="امنحهم فرصاً للممارسة.">Give them opportunities to practice.</p></div>
+                <div class="impact-card"><h3 data-en="Connect to Opportunity" data-fr="Connecter à l'opportunité" data-ar="اربط بالفرصة">Connect to Opportunity</h3><p data-en="Create stronger links between learning and work." data-fr="Créez des liens plus forts entre l'apprentissage et le travail." data-ar="أنشئ روابط أقوى بين التعلم والعمل.">Create links between learning and work.</p></div>
             </div>
         </div>
     </section>
     <section class="partnerships" id="partnerships">
         <div class="container">
-            <h2 class="section-title light">Building the Skills Ecosystem Together</h2>
+            <h2 class="section-title light" data-en="Building the Skills Ecosystem Together" data-fr="Construire ensemble l'écosystème des compétences" data-ar="بناء نظام بيئي للمهارات معاً">Building the Skills Ecosystem Together</h2>
             <div class="partner-categories">
-                <div class="partner-category">Public Institutions</div>
-                <div class="partner-category">Education</div>
-                <div class="partner-category">Industry</div>
-                <div class="partner-category">Healthcare</div>
-                <div class="partner-category">Technology</div>
-                <div class="partner-category">Training</div>
+                <div class="partner-category" data-en="Public Institutions" data-fr="Institutions publiques" data-ar="المؤسسات العامة">Public Institutions</div>
+                <div class="partner-category" data-en="Education" data-fr="Éducation" data-ar="التعليم">Education</div>
+                <div class="partner-category" data-en="Industry" data-fr="Industrie" data-ar="الصناعة">Industry</div>
+                <div class="partner-category" data-en="Healthcare" data-fr="Santé" data-ar="الرعاية الصحية">Healthcare</div>
+                <div class="partner-category" data-en="Technology" data-fr="Technologie" data-ar="التقنية">Technology</div>
+                <div class="partner-category" data-en="Training" data-fr="Formation" data-ar="التدريب">Training</div>
             </div>
-            <a href="#contact" class="btn btn-light">Discuss the Project</a>
+            <a href="#contact" class="btn btn-light" data-en="Discuss the Project" data-fr="Discuter le Projet" data-ar="مناقشة المشروع">Discuss the Project</a>
         </div>
     </section>
     <section class="future" id="future">
         <div class="container">
-            <h2 class="future-headline">Imagine a Young Person in Ben Guerir Exploring the World of Work Without Leaving the Training Center.</h2>
+            <h2 class="future-headline" data-en="Imagine a Young Person in Ben Guerir Exploring the World of Work Without Leaving the Training Center." data-fr="Imaginez un jeune à Ben Guerir explorant le monde du travail sans quitter le centre de formation." data-ar="تخيل شاباً في إبن جرير يستكشف عالم العمل دون مغادرة مركز التدريب.">Imagine a Young Person in Ben Guerir Exploring the World of Work Without Leaving the Training Center.</h2>
             <div class="future-worlds">
-                <div>A hospital.</div>
-                <div>A factory.</div>
-                <div>An aircraft hangar.</div>
-                <div>A construction site.</div>
-                <div>An energy facility.</div>
-                <div>A logistics center.</div>
+                <div data-en="A hospital." data-fr="Un hôpital." data-ar="مستشفى.">A hospital.</div>
+                <div data-en="A factory." data-fr="Une usine." data-ar="مصنع.">A factory.</div>
+                <div data-en="An aircraft hangar." data-fr="Un hangar d'avions." data-ar="حظيرة طائرات.">An aircraft hangar.</div>
+                <div data-en="A construction site." data-fr="Un chantier." data-ar=" موقع بناء.">A construction site.</div>
+                <div data-en="An energy facility." data-fr="Une centrale énergétique." data-ar="منشأة طاقة.">An energy facility.</div>
+                <div data-en="A logistics center." data-fr="Un centre logistique." data-ar="مركز لوجستي.">A logistics center.</div>
             </div>
-            <div class="future-conclusion">One immersive learning environment.</div>
+            <div class="future-conclusion" data-en="One immersive learning environment." data-fr="Un environnement d'apprentissage immersif." data-ar="بيئة تعلم غامرة واحدة.">One immersive learning environment.</div>
         </div>
     </section>
     <section class="final-cta" id="contact">
         <div class="container">
             <div class="cta-content">
-                <h2>Let's Build the Next Generation of Skilled Talent.</h2>
-                <p>SkillsCenter brings immersive technology and AI together for practical learning.</p>
+                <h2 data-en="Let's Build the Next Generation of Skilled Talent." data-fr="Construisons la prochaine génération de talents qualifiés." data-ar="دعنا نبني الجيل القادم من المواهب المؤهلة.">Let's Build the Next Generation of Skilled Talent.</h2>
+                <p data-en="SkillsCenter brings immersive technology, simulation, and AI together to create new possibilities for practical learning and career development." data-fr="SkillsCenter rassemble la technologie immersive, la simulation et l'IA pour créer de nouvelles possibilités d'apprentissage pratique et de développement de carrière." data-ar="يجمع سكيل سينتر بين التقنية الغامرة والمحاكاة والذكاء الاصطناعي لخلق إمكانيات جديدة للتعلم العملي وتنمية المهنة.">SkillsCenter brings immersive technology and AI together for practical learning.</p>
+                <div class="cta-contact">
+                    <a href="tel:+212644215984" class="cta-phone">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <span class="cta-text" data-en="Call us" data-fr="Appelez-nous" data-ar="اتصل بنا">Call us</span>
+                        <span class="cta-number">+212 644 215 984</span>
+                    </a>
+                </div>
                 <div class="cta-buttons">
-                    <a href="#vision" class="btn btn-primary">Explore the Vision</a>
-                    <a href="#partnerships" class="btn btn-secondary">Discuss a Partnership</a>
+                    <a href="#vision" class="btn btn-primary" data-en="Explore the Vision" data-fr="Explorer la Vision" data-ar="استكشف الرؤية">Explore the Vision</a>
+                    <a href="https://wa.me/212644215984" class="btn btn-secondary" data-en="WhatsApp" data-fr="WhatsApp" data-ar="واتساب">WhatsApp</a>
                 </div>
             </div>
         </div>
@@ -202,8 +254,12 @@
             <div class="footer-brand">
                 <img src="skillscenterlogo.png" alt="Logo" class="footer-logo">
                 <h3>SKILLSCENTER</h3>
-                <p>Immersive Training and Skills Development</p>
-                <p>From Learning to Doing.</p>
+                <p data-en="Immersive Training and Skills Development" data-fr="Formation Immersive et Développement des Compétences" data-ar="التدريب الغامر وتنمية المهارات">Immersive Training and Skills Development</p>
+                <p class="footer-motto" data-en="From Learning to Doing." data-fr="De l'apprentissage à l'action." data-ar="من التعلم إلى الفعل.">From Learning to Doing.</p>
+                <a href="tel:+212644215984" class="footer-phone">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span class="footer-number">+212 644 215 984</span>
+                </a>
             </div>
             <div class="footer-links">
                 <a href="#vision">Vision</a>
